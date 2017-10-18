@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginBottom="26dp"
+    android:paddingLeft="22dp"
+    android:layout_height="28dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sleep_four"
+            android:textColor="#FFFFFF"
+            android:drawablePadding="26dp"
+            android:id="@+id/itemFour"
+             android:layout_gravity="center_vertical"
+            android:drawableLeft="@drawable/circle_one"/>
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/editParent"
+        android:layout_marginLeft="20dp"
+        android:visibility="gone"
+        android:layout_height="28dp">
+
+        <EditText
+            android:id="@+id/edt"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="23dp"
+            android:layout_marginRight="44dp"
+            android:background="@drawable/shape_edt_playlist"
+            android:maxLength="40"
+            android:paddingLeft="16dp"
+            android:hint="@string/sleep_time_limit"
+            android:paddingRight="20dp"
+            android:inputType="number"
+            android:singleLine="true"
+            android:textColor="#8e8e8e"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/delete"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="54dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/delete" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#616161</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#D5FF44</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="main_top_bg">#212121</color>
+    <color name="main_top_bg_new">#212121</color>
+    <color name="item_click">#99212121</color>
+    <color name="search_bg">#121212</color>
+    <color name="main_dividing_line">#E62b2b2b</color>
+    <color name="radius_green_bg">#b2d92c</color>
+    <color name="radio_up">#8e8e8e</color>
+    <color name="music_dividing_line">#6f6f6f</color>
+    <color name="tab_indicator">#d5ff44</color>
+    <color name="tab_radioGroup">#dadada</color>
+    <color name="rank_title">#898989</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_60">#99000000</color>
+    <color name="title_bar">#212121</color>
+    <color name="loading_text">#8c8c8c</color>
+    <color name="play_list">#212121</color>
+    <color name="playing_text_bg">#b2d82d</color>
+    <color name="progress_bg">#3b3b3b</color>
+    <color name="delete_bg">#252525</color>
+    <color name="pw_bg_90_percent">#E6212121</color>
+    <color name="search_text_un_checked">#b0b0b0</color>
+    <color name="round_indicator_bg">#3b3c3e</color>
+    <color name="search_text">#b5b5b5</color>
+    <color name="search_text_1">#898989</color>
+    <color name="refresh_text_bg">#4a4a4a</color>
+    <color name="my_library_gray_text">#b0b0b0</color>
+    <color name="sleep_time">#343434</color>
+    <color name="see_all_press">#666666</color>
+    <color name="refresh_bg">#8c8c8c</color>
+    <color name="refresh_bg_press">#4a4a4a</color>
+    <color name="ad_colors">#4c454545</color>
+    <color name="ad_tv_colors">#979b9b9b</color>;
+    <color name="listview_colors">#1a1a1a</color>;
+    <color name="ad_btn_bg">#01A652</color>
+    <color name="usage_bg">#b3000000</color>
+
+</resources>

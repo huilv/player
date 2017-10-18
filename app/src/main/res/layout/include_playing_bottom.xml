@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="38dp"
+    android:layout_alignParentBottom="true"
+    android:id="@+id/bottom"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <TextView
+        android:tag="@string/tag_title"
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:maxLines="1"
+        android:ellipsize="marquee"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:singleLine="true"
+        android:text="MusicTitle"/>
+
+    <TextView
+        android:tag="@string/tag_singer"
+        android:id="@+id/tvAuthor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="7dp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textColor="#8e8e8e"
+        android:textSize="13sp"
+        android:singleLine="true"
+        android:text="MusicAuthor"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginTop="18dp">
+
+        <ImageView
+            android:id="@+id/imgMode"
+            android:layout_width="38dp"
+            android:layout_height="39dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="25dp"
+            android:padding="10dp"
+            android:scaleType="fitXY"
+            android:tag="@string/tag_play_mode"
+            android:src="@drawable/selector_mode_list" />
+
+        <ImageView
+            android:id="@+id/imgPre"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="83dp"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="@string/tag_play_prev"
+            android:src="@drawable/pre_selector" />
+
+        <ImageView
+            android:id="@+id/imgPlay"
+            android:tag="@string/tag_play_pause"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_centerInParent="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/selector_play" />
+
+        <ImageView
+            android:id="@+id/imgNext"
+            android:tag="@string/tag_play_next"
+            android:padding="10dp"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="83dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/next_selector" />
+
+        <ImageView
+            android:id="@+id/imgAdd"
+            android:tag="@string/tag_add_to_play_list"
+            android:padding="10dp"
+            android:layout_width="38dp"
+            android:layout_height="39dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="25dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/add_selector" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
+

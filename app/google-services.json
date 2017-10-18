@@ -1,0 +1,43 @@
+{
+  "project_info": {
+    "project_number": "176969081384",
+    "project_id": "firebase-s-music"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:176969081384:android:b2dac9aa13c68489",
+        "android_client_info": {
+          "package_name": "app.smusic.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "176969081384-mkqbagln0oo5ikkjrevs5m3p69o5mgah.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDH-HNlFPZrBQ2_3nu92L_qQkEU3qIwr3o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-102094960-1"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

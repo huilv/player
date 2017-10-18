@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="74dp"
+    android:orientation="vertical"
+    android:paddingLeft="13dp">
+
+    <ImageView
+        android:id="@+id/logo_ImageView"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/icon_playlist_default" />
+
+    <LinearLayout
+        android:id="@+id/setting_LinearLayout"
+        android:layout_width="34dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/setting_imageView"
+            android:layout_width="4dp"
+            android:layout_height="14dp"
+            android:background="@drawable/selector_music_setting" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="255dp"
+        android:layout_height="0.5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/main_dividing_line" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="35.5dp"
+        android:layout_toLeftOf="@id/setting_LinearLayout"
+        android:layout_toRightOf="@id/logo_ImageView"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/play_list_name_TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/my_songs"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/play_list_count_TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3.5dp"
+            android:text="73 Songs"
+            android:textColor="#8e8e8e"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_create_playlist"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="@string/sleep"
+            android:textColor="#dadada"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#2B2B2B" />
+
+
+        <TextView
+            android:id="@+id/itemOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/circle_one"
+            android:drawablePadding="26dp"
+            android:paddingBottom="24dp"
+            android:paddingLeft="22dp"
+            android:paddingTop="30dp"
+            android:text="@string/sleep_one"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/itemTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/circle_one"
+            android:drawablePadding="26dp"
+            android:paddingBottom="24dp"
+            android:paddingLeft="22dp"
+            android:text="@string/sleep_two"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/itemThree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/circle_one"
+            android:drawablePadding="26dp"
+            android:paddingBottom="24dp"
+            android:paddingLeft="22dp"
+            android:text="@string/sleep_three"
+            android:textColor="#FFFFFF" />
+
+        <include layout="@layout/include_sleep_time" />
+
+        <TextView
+            android:id="@+id/itemFive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/circle_one"
+            android:drawablePadding="26dp"
+            android:paddingBottom="24dp"
+            android:paddingLeft="22dp"
+            android:text="@string/sleep_five"
+            android:textColor="#FFFFFF" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#2B2B2B" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/cancel"
+                    android:textColor="#dadada"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/cancel"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/selector_left" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="13dp"
+                android:layout_marginTop="13dp"
+                android:background="@color/main_dividing_line" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/confirm"
+                    android:textColor="#dadada"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/confirm"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/selector_right" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

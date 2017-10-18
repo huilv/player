@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:background="#ffffff"
+    android:layout_height="113dp">
+
+    <RelativeLayout
+        android:layout_width="113dp"
+        android:background="#d8d8d8"
+        android:layout_height="113dp">
+        <ImageView
+            android:layout_width="113dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ntf_music"
+            android:layout_height="113dp" />
+
+        <ImageView
+            android:layout_width="113dp"
+            android:id="@+id/portrait"
+            android:scaleType="centerCrop"
+            android:layout_height="113dp" />
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="113dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="58dp">
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:scaleType="centerInside"
+                android:layout_alignParentRight="true"
+
+                android:id="@+id/delete"
+                android:src="@drawable/delete"/>
+
+            <TextView
+                android:layout_width="172dp"
+                android:layout_height="wrap_content"
+                android:text="Cartoons"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:lines="1"
+                android:ellipsize="end"
+                android:layout_marginTop="12dp"
+                android:id="@+id/ntf_title"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="tom"
+                android:textColor="#8e8e8e"
+                android:textSize="13sp"
+                android:gravity="center"
+                android:id="@+id/ntf_author"
+                android:layout_marginTop="35dp"
+                android:singleLine="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="30dp"
+                android:ellipsize="end"
+                android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:background="#909090"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="0.5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_height="match_parent">
+
+            <ImageView
+
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dp"
+                android:scaleType="centerInside"
+                android:id="@+id/ntf_img_pre"
+                android:src="@drawable/nft_pre_selector" />
+
+            <ImageView
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:src="@drawable/ntf_play"
+                android:id="@+id/ntf_img_play"
+                android:layout_gravity="center_vertical"
+                android:scaleType="centerInside" />
+
+            <ImageView
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/nft_next_selector"
+                android:layout_marginRight="10dp"
+                android:id="@+id/ntf_img_next"
+                android:scaleType="centerInside" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

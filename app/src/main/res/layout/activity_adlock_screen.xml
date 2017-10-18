@@ -1,0 +1,21 @@
+<com.music.android.ui.widgets.SlidingScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menu"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:fadingEdge="none"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <include layout="@layout/include_ad_lock" />
+
+    </LinearLayout>
+
+</com.music.android.ui.widgets.SlidingScrollView>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/usage_bg"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="345dp"
+        android:layout_height="wrap_content"
+        android:background="@color/main_top_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="18dp"
+        android:paddingTop="22dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@mipmap/logo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="@string/permission_tips"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/gif_ImageView"
+        android:layout_width="345dp"
+        android:layout_height="158dp"
+        android:background="@color/search_bg"
+        android:scaleType="centerCrop" />
+
+    <Button
+        android:id="@+id/got_it_btn"
+        android:layout_width="345dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape_usage_btn"
+        android:gravity="center"
+        android:text="@string/got_it"
+        android:textColor="#fafafa"
+        android:textSize="18sp" />
+
+</LinearLayout>

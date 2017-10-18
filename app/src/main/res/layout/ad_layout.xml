@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="210dp"
+    android:id="@+id/rl_view_container"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="142dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="142dp"
+            android:scaleType="centerCrop"
+            android:id="@+id/icon_image_native"
+            android:src="@drawable/ad_icon_image2"/>
+
+        <!--<TextView-->
+            <!--android:layout_width="20dp"-->
+            <!--android:layout_height="15dp"-->
+            <!--android:layout_marginTop="2dp"-->
+            <!--android:background="@drawable/shape_ad_tv"-->
+            <!--android:gravity="center"-->
+            <!--android:text="@string/ad"-->
+            <!--android:textColor="#ffffff"-->
+            <!--android:textSize="10sp" />-->
+    </RelativeLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:maxWidth="186dp"
+            android:text="@string/about_title"
+            android:textColor="#ffffff"
+            android:id="@+id/ad_title_text"
+            android:gravity="center_vertical"
+            android:layout_height="17dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:maxWidth="190dp"
+            android:layout_marginTop="3dp"
+            android:textColor="#ffffff"
+            android:text="@string/about_title"
+            android:id="@+id/ad_subtitle_Text"
+            android:gravity="center_vertical"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+    <TextView
+        android:layout_width="93dp"
+        android:text="@string/download"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:id="@+id/calltoaction_text"
+        android:layout_height="match_parent" />
+</LinearLayout>
+
+
+</LinearLayout>
