@@ -119,6 +119,6 @@ dependencies {
     compile 'com.android.support:design:25.3.1'
 }
 def releaseTime() {
-    new Date().format("yyyyMMdd HH:mm:ss", TimeZone.getTimeZone("Asia/Chongqing"))
+    new Date().format("yyyyMMdd_HH:mm:ss", TimeZone.getTimeZone("Asia/Chongqing"))
 }
 apply plugin: 'com.google.gms.google-services'
